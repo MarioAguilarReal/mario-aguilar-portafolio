@@ -7,7 +7,7 @@ export function Nav() {
     <nav className="nav">
       <div className="nav__inner">
         <a href="#top" className="nav__brand">
-          <span className="nav__logo">MA</span>
+          <img src="/assets/logo-large.png" alt="Mario Aguilar" className="nav__logo" width={34} height={34} />
           <span className="nav__wordmark">
             marioaguilar<span className="accent">.dev</span>
           </span>
