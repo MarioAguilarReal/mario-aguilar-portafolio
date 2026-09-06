@@ -1,0 +1,37 @@
+// ---- Design tokens ----------------------------------------------------------
+// Runtime-switchable theme colors live as CSS custom properties so the
+// [data-theme] toggle can flip them without a re-render.
+
+:root {
+  --bg: #0a0f0c;
+  --surface: #10160f2b;
+  --card: #121a15;
+  --card2: #0e1511;
+  --line: rgba(220, 255, 230, 0.09);
+  --ink: #eef4ef;
+  --mut: #a3b3a9;
+  --acc: #4ade80;
+  --acc-deep: #22c55e;
+  --acc-ink: #052e16;
+  --amber: #fbbf24;
+  --violet: #c4b5fd;
+  --nav: rgba(10, 15, 12, 0.82);
+  --shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme='light'] {
+  --bg: #f7faf7;
+  --surface: #ffffff;
+  --card: #ffffff;
+  --card2: #f1f6f1;
+  --line: rgba(10, 40, 20, 0.12);
+  --ink: #101511;
+  --mut: #51665a;
+  --acc: #15803d;
+  --acc-deep: #166534;
+  --acc-ink: #ffffff;
+  --amber: #b45309;
+  --violet: #6d28d9;
+  --nav: rgba(247, 250, 247, 0.85);
+  --shadow: 0 20px 45px -22px rgba(20, 60, 35, 0.25);
+}
